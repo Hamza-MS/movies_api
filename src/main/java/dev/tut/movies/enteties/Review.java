@@ -1,4 +1,4 @@
-package dev.tut.movies;
+package dev.tut.movies.enteties;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
