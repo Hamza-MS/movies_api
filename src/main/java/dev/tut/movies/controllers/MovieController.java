@@ -26,4 +26,8 @@ public class MovieController {
     }
 
 
+    @GetMapping("/{name}")
+    public Optional<Movie> getMovieByName(@PathVariable String name){
+        return movieService.movieByName(name);
+    }
 }
